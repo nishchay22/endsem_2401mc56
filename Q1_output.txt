@@ -1,0 +1,13 @@
+$ echo 2401mc56
+2401mc56
+$ prottest
+initial value: A
+after mprotect, read value: A
+child trying to write to protected page...
+pid 4 prottest: trap 14 err 7 on cpu 0 eip 0x74 addr 0x3000--kill proc
+parent after child killed, value: A
+after munprotect, write value: C
+mprotect unaligned: -1
+mprotect len=0: -1
+mprotect out of range: -1
+$ 

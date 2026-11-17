@@ -1,0 +1,8 @@
+$ echo 2401mc56
+2401mc56
+$ schedtest
+priority 5 finished
+priority 10 finished
+priority 15 finished
+Done
+$ 
